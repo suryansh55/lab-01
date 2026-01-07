@@ -6,6 +6,10 @@ public abstract class Mood {
 
     private Date valueDate;
 
+    public Mood(){
+        this.valueDate = new Date();
+    }
+
     public Mood(Date valueDate){
         this.valueDate = valueDate;
     }
